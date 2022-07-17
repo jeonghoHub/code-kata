@@ -17,6 +17,5 @@ class StringCalculator() {
         return result
     }
 
-
 }
 

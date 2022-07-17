@@ -29,8 +29,7 @@ internal class StringCalculatorKtTest {
         fun calculationExpressionProvider() = listOf(
             Arguments { arrayOf(Vaildator.from("1+5*10-20"),"40.0") },
             Arguments { arrayOf(Vaildator.from("1+5*10-20/2+10"),"30.0") },
-            Arguments { arrayOf(Vaildator.from("1+5*10-20*7"),"280.0") }
-
+            Arguments { arrayOf(Vaildator.from("1+5*10-20*7"),"280.0") },
         )
     }
 }
